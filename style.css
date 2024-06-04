@@ -101,7 +101,7 @@ body {
     display: flex;
     justify-content: center;
     list-style-type:none;
-    margin: 3em 0;
+    margin: 5em 0;
 }
 
 .dispositivos {
@@ -119,12 +119,14 @@ body {
 }
 
 .rodape__lista {
+    text-decoration-color: var(--branco-principal);
     display: flex;
     justify-content: center;
     list-style-type: none;
     margin-top: 1em;
     gap: 1rem;
-    text-decoration-color: var(--branco-principal);
+    margin: 2em;
+
 }
 
 .lista__link a {
@@ -134,14 +136,15 @@ body {
 }
 
 .rodape__texto {
-    margin: 1em 0;
+    margin: 2em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
+
 }
 
 .rodape {
     text-align: center;
-    margin: 5em 3em;
+    margin: 11em 3em;
 }
 
 .lista__link a:hover {
@@ -161,4 +164,8 @@ body {
     background-color: rgba(13, 21, 49, 0.5);
     border-radius: 30px;
     color: var(--cor-de-fundo);
+}
+
+.rodape__logo {
+    padding: 2em;
 }
