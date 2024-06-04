@@ -172,3 +172,10 @@ body {
 .rodape__logo {
     padding: 2em;
 }
+
+@media screen and (max-width:768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+}
