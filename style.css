@@ -201,12 +201,26 @@ body {
 
     .secundario__imagem {
         display: block;
-        justify-content: center;
         align-items: center;
         margin: 2em 2em;
+        width: 50vw;
     }
 
     .descricao__titulo {
-        font-size: 60px;
+        font-size: 85px;
+    }
+
+    .descricao__texto {
+        font-size: 30px;
+        align-items: center;
+        margin: 2em;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
     }
 }
