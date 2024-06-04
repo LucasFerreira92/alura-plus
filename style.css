@@ -139,12 +139,15 @@ body {
     margin: 2em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
-
+    width: 80%;
 }
 
 .rodape {
     text-align: center;
     margin: 11em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .lista__link a:hover {
